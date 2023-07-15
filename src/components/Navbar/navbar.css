@@ -1,0 +1,45 @@
+.nav-link svg {
+  margin-right: 5px;
+}
+
+.custom-navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  height: 100px;
+  z-index: 999;
+}
+
+.nav-link {
+  color: #333; /* Dark gray text color */
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: tomato !important;
+}
+
+.dropdown-toggle {
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text color */
+  border-color: #ccc !important;
+  margin-right: 10px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #f2f2f2;
+  color: tomato !important;
+  border-color: tomato !important;
+}
+
+.dropdown-menu {
+  background-color: #fff; /* White background */
+  border-color: #ccc !important;
+}
+
+.dropdown-item {
+  color: #333; /* Dark gray text color */
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+  color: tomato !important;
+}

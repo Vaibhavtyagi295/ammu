@@ -1,0 +1,9 @@
+/* Custom CSS */
+.footer {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer p, .footer ul {
+    font-weight: 300;
+  }
+  

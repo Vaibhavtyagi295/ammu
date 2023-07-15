@@ -1,0 +1,37 @@
+.product-detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .product-image img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .whatsapp-icon {
+    margin-right: 10px;
+  }
+  

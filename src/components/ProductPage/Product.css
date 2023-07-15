@@ -1,0 +1,81 @@
+/* custom.css */
+.full-width-page {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F9FA;
+}
+
+
+.mt-2{
+  width: 100%;
+  background-color: #F8F9FA;}
+.small-card {
+  height: 240px; /* Adjust the height as needed */
+  width: 190px; /* Adjust the width as needed */
+  margin-bottom: 22px; /* Adjust the margin as needed */
+}
+
+
+
+.card {
+    border-radius: 12px !important;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+   ; /* Adjust the width as needed */
+    font-family:"Helvetica Neue" , sans-serif;
+  }
+  
+
+  
+  .card-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+  }
+  
+  .card-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-image:hover img {
+    transform: scale(1.05);
+  }
+  
+  .button-hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-hover-effect:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card-image:hover .image-hover-overlay {
+    opacity: 1;
+  }
+  /* custom.css */
+
+  .product-row {
+    margin-left: 8px;
+    margin-right: -8px;
+  }
+  
+  .small-card {
+    margin-left: 11%;
+  margin-top: 10%;
+  }
+  
